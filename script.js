@@ -12,7 +12,8 @@ const section1 = document.querySelector('#section--1');
 const tabs = document.querySelectorAll('.operations__tab');
 const tabsContainer = document.querySelector('.operations__tab-container');
 const tabsContent = document.querySelectorAll('.operations__content');
-const nav = document.querySelector('.nav');
+const nav = document.querySelector('.nav-bar');
+const btnNavEl = document.querySelector('.btn-mobile-nav');
 const header = document.querySelector('.header');
 const allSections = document.querySelectorAll('.section');
 const imgTargets = document.querySelectorAll('img[data-src]');
@@ -91,6 +92,12 @@ const handleHover = function (e) {
 
 nav.addEventListener('mouseover', handleHover.bind(0.5));
 nav.addEventListener('mouseout', handleHover.bind(1));
+
+// Make mobile navigation work
+
+btnNavEl.addEventListener('click', function () {
+  nav.classList.toggle('nav-open');
+});
 
 // Sticky navigation with the intersection observer API
 
