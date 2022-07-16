@@ -89,6 +89,30 @@
   .nav__link:visited {
     font-size: 3rem;
   }
+
+  .header__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 0;
+  }
+
+  .header__title button {
+    padding-bottom: 10rem;
+    font-size: 3rem;
+  }
+
+  .header__img {
+    width: 70%;
+    grid-column: 2 / 3;
+    grid-row: 1 / span 4;
+    transform: translateY(-6rem);
+  }
+
+  .features {
+    gap: 10rem 0;
+    margin: 0;
+  }
 }
 
 /**************************/
@@ -96,6 +120,24 @@
 /**************************/
 
 @media (max-width: 44em) {
+  h1 {
+    text-align: center;
+  }
+  .dots {
+    bottom: 0%;
+  }
+
+  .footer__nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    row-gap: 3rem;
+    margin-left: 1.5rem;
+  }
+
+  .contact {
+    grid-column: 2/3;
+  }
 }
 
 /**************************/
