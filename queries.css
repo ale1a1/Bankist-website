@@ -145,6 +145,45 @@
 /**************************/
 
 @media (max-width: 34em) {
+  .features {
+    grid-template-columns: 1fr;
+    gap: 10rem;
+  }
+  .features__feature {
+    width: 90%;
+    margin-top: -8rem;
+  }
+  .features__icon {
+    margin: 0 auto 2rem auto;
+  }
+
+  .features__img {
+    width: 90%;
+  }
+
+  .features__header {
+    text-align: center;
+  }
+
+  /* // ordering grid elements // */
+  .first {
+    order: 1;
+  }
+  .second {
+    order: 2;
+  }
+  .third {
+    order: 3;
+  }
+  .fourth {
+    order: 4;
+  }
+  .fifth {
+    order: 5;
+  }
+  .sixth {
+    order: 6;
+  }
 }
 
 /* 
