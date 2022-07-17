@@ -179,7 +179,7 @@
     text-align: center;
   }
 
-  /* // ordering grid elements // */
+  /* // ordering grid elements section1// */
   .first {
     order: 1;
   }
@@ -197,6 +197,20 @@
   }
   .sixth {
     order: 6;
+  }
+
+  .operations__content--active {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .operations__icon {
+    margin: 0 auto 1rem auto;
+  }
+
+  .operations button {
+    padding: 1.25rem 2rem;
   }
 }
 
