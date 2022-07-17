@@ -145,6 +145,14 @@
 /**************************/
 
 @media (max-width: 34em) {
+  .nav {
+    padding: 0;
+  }
+
+  .nav__item {
+    margin-left: 0;
+  }
+
   .features {
     grid-template-columns: 1fr;
     gap: 10rem;
