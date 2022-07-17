@@ -255,6 +255,10 @@
     grid-template-columns: repeat(2, 1fr);
     margin-left: 0;
   }
+
+  .footer__link {
+    text-align: center;
+  }
 }
 
 /* 
