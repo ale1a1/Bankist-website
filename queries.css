@@ -166,6 +166,7 @@
 
   .features__img {
     width: 90%;
+    justify-self: center;
   }
 
   .features__header {
@@ -175,6 +176,7 @@
 
   .features p {
     font-size: 2rem;
+    text-align: center;
   }
 
   /* // ordering grid elements // */
