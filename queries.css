@@ -228,11 +228,19 @@
   }
 
   .slide {
-    height: 75rem;
+    height: 70rem;
   }
 
   .slider {
     height: 75rem;
+  }
+
+  .dots {
+    bottom: 8%;
+  }
+
+  #section--3 {
+    padding: 15rem 3rem 10rem 3rem;
   }
 }
 
