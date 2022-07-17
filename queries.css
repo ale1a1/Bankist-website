@@ -242,6 +242,10 @@
   #section--3 {
     padding: 15rem 3rem 10rem 3rem;
   }
+
+  .footer__nav {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* 
