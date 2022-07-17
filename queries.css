@@ -155,6 +155,13 @@
   }
   .features__icon {
     margin: 0 auto 2rem auto;
+    width: 8.25rem;
+    height: 8.25rem;
+  }
+
+  .features__icon svg {
+    width: 3.75rem;
+    height: 3.75rem;
   }
 
   .features__img {
@@ -163,6 +170,11 @@
 
   .features__header {
     text-align: center;
+    font-size: 3rem;
+  }
+
+  .features p {
+    font-size: 2rem;
   }
 
   /* // ordering grid elements // */
