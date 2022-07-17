@@ -253,6 +253,7 @@
 
   .footer__nav {
     grid-template-columns: repeat(2, 1fr);
+    margin-left: 0;
   }
 }
 
